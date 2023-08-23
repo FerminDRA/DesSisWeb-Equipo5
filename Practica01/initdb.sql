@@ -2,7 +2,6 @@ CREATE USER myuser;
 CREATE DATABASE mydb;
 GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
 
-\c mydb
 CREATE TABLE ejemplo(
 	clave integer NOT NULL,
 	nombre character varying(50),
